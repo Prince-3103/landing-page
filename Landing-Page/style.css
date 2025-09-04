@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header,
+.mini-header,
+footer{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #1F2937;
+}
+
+.header {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 20px 200px;
+    justify-content: space-between;
+}
+.about{
+    display: flex;
+    gap: 20px;
+}
+
+.mini-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 180px;
+    gap: 40px;
+}
+.mini-header-text{
+    max-width: 400px;
+    text-align: left;
+}
+.place{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 250px;
+    background-color: #8e8e8faf;
+    color: white;
+}
+
+.mini-sign {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #3882F6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+.header p,
+.mini-header p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.header h3{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.sign-up{
+    background-color: #3882F6;
+}
+
+.mini-header h2{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.random{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    padding: 50px 100px;
+}
+.random-text{
+    font-size: 38px;
+    font-weight: 900;
+    margin-bottom: 40px;
+    color: #1F2937;
+}
+
+.random-image{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.image-card {
+  text-align: center;
+}
+
+.image-card p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #1F2937;
+  font-weight: 500;
+}
+
+.image-card img{
+    margin: 0 auto;
+    display: block;
+    border: 4px solid #3882F6;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: 300px;
+}
